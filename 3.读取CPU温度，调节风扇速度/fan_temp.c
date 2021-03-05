@@ -57,7 +57,7 @@ int main(void)
             if (temp <= 45)
             {
                 level_temp = 45;
-                wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x00);
+                wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x04);
             }
             else if (temp <= 47)
             {
