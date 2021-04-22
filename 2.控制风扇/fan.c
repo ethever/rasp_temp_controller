@@ -15,7 +15,7 @@ int main(void){
   }
   
   while(1){
-    wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x09);
+    wiringPiI2CWriteReg8(fd_i2c, 0x08, 0x00);
   }
   return 0;
 }
